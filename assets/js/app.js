@@ -1,13 +1,10 @@
-$(document).ready(function(){
-  $('.parallax-wrapper').scroll(function(){
-    var scroll = $('.parallax-wrapper').scrollTop();
-    if(scroll > 50){
-        $('header').addClass('header-scrolled');
-    }else{
-        $('header').removeClass('header-scrolled');
-    }
-  });
-
+$('.parallax-wrapper').scroll(function(){
+  var scroll = $('.parallax-wrapper').scrollTop();
+  if(scroll > 50){
+      $('header').addClass('header-scrolled');
+  }else{
+      $('header').removeClass('header-scrolled');
+  }
 });
 
 
