@@ -1,11 +1,21 @@
 $('.parallax-wrapper').scroll(function(){
   var scroll = $('.parallax-wrapper').scrollTop();
-  if(scroll > 50){
+  if(scroll > 100){
       $('header').addClass('header-scrolled');
   }else{
       $('header').removeClass('header-scrolled');
   }
 });
+
+
+$(window).scroll(function(){
+  var scroll = $(window).scrollTop();
+
+  // $('#hero .cloud-2').css('transform','translateY(' + -scroll * 0.57 + '%)');
+  // $('#hero .landscape').css('top', scroll * 0.57 + 'px');
+  // $('#hero .small-tree').css('bottom', -scroll * 0.57 + 'px');
+  
+})
 
 
 // pure counter
