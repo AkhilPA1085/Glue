@@ -1,5 +1,5 @@
-$('.parallax-wrapper').scroll(function(){
-  var scroll = $('.parallax-wrapper').scrollTop();
+$(window).scroll(function(){
+  var scroll = $(window).scrollTop();
   if(scroll > 100){
       $('header').addClass('header-scrolled');
   }else{
@@ -7,15 +7,30 @@ $('.parallax-wrapper').scroll(function(){
   }
 });
 
-
 $(window).scroll(function(){
-  var scroll = $(window).scrollTop();
+  var winScroll = $(this).scrollTop();
+  $('.bg3').css({
+    'transform':'translate(0,' + winScroll/8 +'%)'
+  });
 
-  // $('#hero .cloud-2').css('transform','translateY(' + -scroll * 0.57 + '%)');
-  // $('#hero .landscape').css('top', scroll * 0.57 + 'px');
-  // $('#hero .small-tree').css('bottom', -scroll * 0.57 + 'px');
-  
+  $('.bg4').css({
+    'transform':'translate(0,' + winScroll/8 +'%)'
+  });
+
+  $('.bg5').css({
+    'transform':'translate(0,' + winScroll/12 +'%)'
+  });
+
+  $('.bg6').css({
+    'transform':'translate(0,' + winScroll/6 +'%)'
+  });
+  $('.bg8').css({
+    'transform':'translate(0,' + winScroll/13 +'%)',
+  });
+ 
 })
+
+
 
 
 // pure counter
