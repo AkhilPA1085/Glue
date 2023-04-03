@@ -221,8 +221,9 @@ Hero Section
     position: absolute;
     left: 0;
     top: 0;
-    background: url('/assets/images/home\ -cloud.png');
+    /* background-image: url('assets/images/home\ -cloud.png'); */
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero .bg2{
@@ -231,7 +232,7 @@ Hero Section
     position: absolute;
     left: 0;
     top: 0;
-    background: url('/assets/images/home\ -cloud2.png');
+    /* background-image: url('assets/images/home\ -cloud2.png'); */
     background-size: cover;
 }
 
@@ -241,7 +242,7 @@ Hero Section
     position: absolute;
     left: 0;
     top: 0;
-    background: url('/assets/images/home-landscape.png');
+    /* background-image: url('assets/images/home-landscape.png'); */
     background-size: cover;
 }
 
@@ -252,7 +253,7 @@ Hero Section
     right: 0;
     bottom: 0;
     top: 30%;
-    background: url(/assets/images/home-tree2.svg);
+    /* background-image: url('assets/images/home-tree2.svg'); */
     background-size: auto;
     background-position: right;
     background-repeat: no-repeat;
@@ -265,7 +266,7 @@ Hero Section
     left: 0;
     bottom: 0;
     top: 25%;
-    background: url(/assets/images/home-tree.png);
+    /* background-image: url('assets/images/home-tree.png'); */
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left;
@@ -299,7 +300,7 @@ Hero Section
     position: absolute;
     left: 0;
     top: 0;
-    background: url('/assets/images/Birds.gif');
+    /* background-image: url('assets/images/Birds.gif'); */
     background-size: cover;
 }
 
@@ -310,7 +311,7 @@ Hero Section
     left: 0;
     bottom: 0;
     top: 15%;
-    background: url(/assets/images/Elephant.png);
+    /* background-image: url('assets/images/Elephant.png'); */
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -323,7 +324,7 @@ Hero Section
     left: 0;
     bottom: 0;
     top: 80%;
-    background: url(/assets/images/top\ greenary.png);
+    /* background-image: url('assets/images/top\ greenary.png'); */
     background-size: contain;
     background-repeat: no-repeat;
 }
