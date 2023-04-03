@@ -207,8 +207,6 @@ Hero Section
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* left: 0;
-    height: 0; */
 }
 
 .hero .div{
@@ -221,7 +219,6 @@ Hero Section
     position: absolute;
     left: 0;
     top: 0;
-    /* background-image: url('assets/images/home\ -cloud.png'); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -232,7 +229,6 @@ Hero Section
     position: absolute;
     left: 0;
     top: 0;
-    /* background-image: url('assets/images/home\ -cloud2.png'); */
     background-size: cover;
 }
 
@@ -242,7 +238,6 @@ Hero Section
     position: absolute;
     left: 0;
     top: 0;
-    /* background-image: url('assets/images/home-landscape.png'); */
     background-size: cover;
 }
 
@@ -253,7 +248,6 @@ Hero Section
     right: 0;
     bottom: 0;
     top: 30%;
-    /* background-image: url('assets/images/home-tree2.svg'); */
     background-size: auto;
     background-position: right;
     background-repeat: no-repeat;
@@ -266,7 +260,6 @@ Hero Section
     left: 0;
     bottom: 0;
     top: 25%;
-    /* background-image: url('assets/images/home-tree.png'); */
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left;
@@ -300,7 +293,6 @@ Hero Section
     position: absolute;
     left: 0;
     top: 0;
-    /* background-image: url('assets/images/Birds.gif'); */
     background-size: cover;
 }
 
@@ -311,7 +303,6 @@ Hero Section
     left: 0;
     bottom: 0;
     top: 15%;
-    /* background-image: url('assets/images/Elephant.png'); */
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -324,7 +315,6 @@ Hero Section
     left: 0;
     bottom: 0;
     top: 80%;
-    /* background-image: url('assets/images/top\ greenary.png'); */
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -351,298 +341,6 @@ Hero Section
         top: 20%;
     }
 }
-
-/* .parallax-wrapper{
-    height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    perspective: 50px;
-}
-
-#hero{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transform-style: preserve-3d;
-    z-index: -1;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    padding: 100px 0px;
-}
-
-#hero img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-
-#hero .cloud-1{
-    transform: translate3d(0px,0px,-50px) scale(2);
-}
-
-#hero .cloud-2{
-    transform: translate3d(0px,0px,-49px) scale(2);
-}
-
-#hero .lanscape-img{
-    transform: translate3d(0px,0px,-48px) scale(2);
-}
-
-#hero .small-tree{
-    transform: translate3d(0px,0px,-42px) scale(2);
-    object-fit: contain;
-    height: fit-content;
-    width: fit-content;
-    right: -37%;
-    width: 10vh; 
-    left: 100%;
-    bottom: -8%;
-}
-
-#hero .big-tree{
-    transform: translate3d(0px,0px,-36px) scale(2);
-    object-fit: contain;
-    height: fit-content;
-    width: fit-content;
-    left: -37%;
-    width: 10vh; */
-    /* left: 100%;
-    bottom: 0;
-}
-
-#hero .birds{
-    transform: translate3d(0px,0px,-41px) scale(2);
-}
-
-
-#hero .text{
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    height: 70%;
-    width: 100%;
-    position: absolute;
-    transform: translate3d(0px,0px,-48px) scale(2);
-}
-
-#hero .text span{
-    color: var(--dark-green-bg);
-}
-
-#hero .elephants{
-    transform: translate3d(0px,0px,-24px) scale(1.15);
-}
-
-#hero .greenary{
-    transform: translate3d(0px,0px,0px) scale(1.5);
-    height: auto;
-    bottom: -1%;
-}
-  
-@media(max-width:992px){
-    .parallax-wrapper{
-        height: 100vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-        perspective: 20px;
-    }
-    
-    #hero{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        transform-style: preserve-3d;
-        z-index: -1;
-    
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    #hero img{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: -1;
-    }
-    
-    #hero .cloud-1{
-        transform: translateZ(-20px) scale(2);
-    }
-    
-    #hero .cloud-2{
-        transform: translateZ(-20px) scale(2);
-    }
-    
-    #hero .lanscape-img{
-        transform: translateZ(-20px) scale(2);
-    }
-    
-    #hero .small-tree{
-        transform: translateZ(-18px) scale(2);
-        object-fit: contain;
-        height: fit-content;
-        width: fit-content;
-        right: -37%;
-        width: 10vh; */
-        /* left: 100%;
-        bottom: -8%;
-    }
-    
-    #hero .big-tree{
-        transform: translateZ(-14px) scale(2);
-        object-fit: contain;
-        height: fit-content;
-        width: fit-content;
-        left: -37%;
-        width: 10vh; */
-        /* left: 100%;
-        bottom: 0;
-    }
-    
-    #hero .birds{
-        transform: translateZ(-20px) scale(2);
-    }
-    
-    
-    #hero .text{
-        color: #fff;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-align: center;
-        height: 70%;
-        width: 100%;
-        position: absolute;
-        transform: translateZ(-20px) scale(2);
-    }
-    
-    #hero .text span{
-        color: var(--dark-green-bg);
-    }
-    
-    #hero .elephants{
-        transform: translateZ(-14px) scale(2);
-        object-fit: contain;
-        bottom: 0;
-        top: 50%;
-    }
-    
-    #hero .greenary{
-        transform: translateZ(-1px) scale(1.5);
-        height: auto;
-        bottom: -1%;
-    }
-}
-
-@media(min-width:993px) and (max-width:1300px){
-    .parallax-wrapper{
-        height: 100vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-        perspective: 15px;
-    }
-    
-    #hero{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        transform-style: preserve-3d;
-        z-index: -1;
-    
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    #hero img{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: -1;
-    }
-    
-    #hero .cloud-1{
-        transform: translateZ(-15px) scale(2);
-    }
-    
-    #hero .cloud-2{
-        transform: translateZ(-15px) scale(2);
-    }
-    
-    #hero .lanscape-img{
-        transform: translateZ(-15px) scale(2);
-    }
-    
-    #hero .small-tree{
-        transform: translateZ(-13px) scale(2);
-        object-fit: contain;
-        height: fit-content;
-        width: fit-content;
-        right: -37%;
-        width: 10vh; */
-        /* left: 100%;
-        bottom: -8%;
-    }
-    
-    #hero .big-tree{
-        transform: translateZ(-12px) scale(2);
-        object-fit: contain;
-        height: fit-content;
-        width: fit-content;
-        left: -37%;
-        width: 10vh; */
-        /* left: 100%;
-        bottom: 0;
-    }
-    
-    #hero .birds{
-        transform: translateZ(-13px) scale(2);
-    }
-    
-    
-    #hero .text{
-        color: #fff;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-align: center;
-        height: 70%;
-        width: 100%;
-        position: absolute;
-        transform: translateZ(-15px) scale(2);
-    }
-    
-    #hero .text span{
-        color: var(--dark-green-bg);
-    }
-    
-    #hero .elephants{
-        transform: translateZ(-12px) scale(1);
-        object-fit: contain;
-        bottom: 0;
-        top: 50%;
-    }
-    
-    #hero .greenary{
-        transform: translateZ(-1px) scale(1.5);
-        height: auto;
-        bottom: -1%;
-    }
-} */
-
 
 /*-------------------------------------------------------------------- 
 About Section 
@@ -883,13 +581,33 @@ Media Center Section
     font-size: 24px;
     font-weight: 700;
 
-    overflow: hidden;
+    /* overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     line-clamp: 2;
+    -webkit-box-orient: vertical; */
+
+
+    display: -webkit-box;
     -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4em;
+    max-height: calc(1.4em * 2); /* show 2 lines of text */
 }
+
+/* For Safari 16+ */
+@supports (-webkit-line-clamp: 1) {
+    #media-center-section .media-card .media-desc {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2; /* show 2 lines of text */
+      -webkit-box-orient: vertical;
+      line-clamp: 2; /* fallback for other browsers */
+      max-height: 3em; /* fallback for other browsers */
+    }
+  }
 
 #media-center-section .media-card .media-card-body .read-more{
     color: var(--dark-blue-contact-form-text-colour);
